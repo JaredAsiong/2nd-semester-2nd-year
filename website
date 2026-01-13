@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyFlow</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>StudyFlow</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section id="home" class="hero">
+            <h2>Study Smarter, Not Harder</h2>
+            <h3>A simple study planner for students</h3>
+
+            <p>
+                StudyFlow helps students organize tasks, manage time,
+                and stay focused on their goals.
+            </p>
+
+            <div class="buttons">
+                <button>Get Started</button>
+                <button class="secondary">Learn More</button>
+            </div>
+
+            <img
+                src="https://elements-resized.envatousercontent.com/elements-cover-images/eeb3c0ab-ea17-4e3b-8c5e-fc77b83bbeb2?w=2038&cf_fit=scale-down&q=85&format=auto&s=773d1ed303c8631543303778410528f04300fea99de406982677a2870c7c66a6"
+                alt="Study app preview"
+                class="hero-img"
+            >
+        </section>
+
+        <!-- FEATURES -->
+        <section id="features">
+            <h2>Features</h2>
+
+            <div class="features-container">
+                <article>
+                    <img src="https://png.pngtree.com/png-clipart/20190924/original/pngtree-task-icon-for-your-project-png-image_4844010.jpg" alt="Task icon" class="feature-img">
+                    <h3>Task List</h3>
+                    <p>Create and manage your daily study tasks easily.</p>
+                </article>
+
+                <article>
+                    <img src="https://media.istockphoto.com/id/1225609127/vector/growing-business-concept.jpg?s=612x612&w=0&k=20&c=RWDV5WgdK55I-9KB9xWBWs770pWE3qCGK34ZCvB1uG8=" alt="Progress icon" class="feature-img">
+                    <h3>Progress Tracker</h3>
+                    <p>Track your study progress and stay motivated.</p>
+                </article>
+
+                <article>
+                    <img src="https://img.freepik.com/premium-vector/reminders-icon-often-featuring-bell-symbolizes-alerts-task-management-notifications_142112-6434.jpg" alt="Reminder icon" class="feature-img">
+                    <h3>Reminders</h3>
+                    <p>Get reminders so you never miss a deadline.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about">
+            <h2>About StudyFlow</h2>
+            <h4>Why choose our app?</h4>
+
+            <p>
+                StudyFlow is a fictional study planner designed for students.
+                It helps reduce stress by organizing school tasks in one place.
+            </p>
+
+            <p>
+                The app is easy to use and suitable for beginners.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        <h5>Contact Us</h5>
+        <p>Email: studyflow@email.com</p>
+        <p>Phone: 09020502231</p>
+        <p>© 2026 StudyFlow</p>
+    </footer>
+
+</body>
+</html>
